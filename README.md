@@ -9,4 +9,5 @@ Do yourself a favour and learn Grid, it takes 1 hour tops  and your positioning 
 View this code in action on [Glitch](https://defiant-mercurial-camp.glitch.me)
 ------------------------------------------------------------------------------
 
+[Here]() is centering example made with CSS flex
 \ ゜o゜)ノ
