@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>The Layout</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      
+      body{
+        background-color:#ff9a76;
+        font-family: open sans;
+      }
+      .grid{
+        padding:1em;
+        display:grid;
+        grid-template-areas: 
+          'header header header header header'
+          'lsidebar content content content rsidebar'
+          'footer footer footer footer footer';
+      }
+      .grid>*{
+        display:flex;
+        align-items: center;
+        justify-content: center
+      }
+      .header{
+        background-color:#637373;
+        grid-area: header;
+        height:10vw;
+        
+      }
+      .lsidebar{
+        background-color:#679b9b;
+        grid-area: lsidebar;
+        
+      }
+      .content{
+        background-color:#ffeadb;
+        grid-area: content;
+        height:58vw;
+        
+      }
+      .rsidebar{
+        background-color:#679b9b;
+        grid-area: rsidebar;
+        
+      }
+      .footer{
+        background-color:#637373;
+        grid-area: footer;
+        height:10vw;
+      }
+      
+    
+    
+    </style>
+    
+  </head>
+  <body>
+    <div class="grid">
+      <div class="header">
+        Header
+      </div>
+      <div class="lsidebar">
+        Left sidebar
+      </div>
+      <div class="content">
+        Content
+      </div>
+      <div class="rsidebar">
+        Right sidebar
+      </div>
+      <div class="footer">
+        Footer
+      </div>
+    </div>
+    
+  </body>
+</html>
